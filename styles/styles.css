@@ -8,9 +8,9 @@
 
 body {
   /* height: 100vh; */ /* Pega 100% do tamano da tela da tela */
+  box-sizing: border-box;
   background-color: #000000;
   color: #F6F6F6;
-  box-sizing: border-box;
 }
 
 /*
@@ -19,13 +19,26 @@ body {
   A propriedade CSS box-sizing define como a largura total e a altura de um elemento são calculadas.
 */
 
-.titulo-destaque {
+.cabecalho {
+  padding: 2% 0 0 15%
+}
+
+.cabecalho__menu {
+  display: flex;
+  gap: 80px;
+}
+
+.cabecalho__menu__link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
   color: #22D4FD;
+  text-decoration: none;
 }
 
 .apresentacao {
   /* margin: 10% 15%; */
-  padding: 10% 15%;
+  padding: 5% 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,6 +54,10 @@ body {
 .apresentacao__conteudo__titulo {
   font-size: 36px;
   font-family: "Krona One", sans-serif;
+}
+
+.titulo-destaque {
+  color: #22D4FD;
 }
 
 .apresentacao__conteudo__texto {
