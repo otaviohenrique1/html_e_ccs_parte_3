@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 100vh; /* Pega 100% do tamano da tela da tela */
+  /* height: 100vh; */ /* Pega 100% do tamano da tela da tela */
   background-color: #000000;
   color: #F6F6F6;
   box-sizing: border-box;
@@ -24,7 +24,8 @@ body {
 }
 
 .apresentacao {
-  margin: 10% 15%;
+  /* margin: 10% 15%; */
+  padding: 10% 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -76,5 +77,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
+  gap: 16px;
+}
+
+.apresentacao__links_link:hover {
+  background-color: #272727;
+}
+
+.rodape {
+  color: #000000;
+  background-color: #22D4FD;
+  padding: 24px;
+  text-align: center;
+  font-family:'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
 }
